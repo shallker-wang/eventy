@@ -1,0 +1,31 @@
+{
+  "name": "eventy",
+  "description": "An object event injection.",
+  "version": "1.0.0",
+  "author": "Shallker Wang <shallker.wang@profero.com>",
+  "main": "index.js",
+  "keywords": [
+    "eventy",
+    "event",
+    "events"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shallker-wang/eventy.git"  
+  },
+  "bugs": {
+    "url": "https://github.com/shallker-wang/eventy/issues"
+  },
+  "dependencies": {
+    "dever": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "coffee-script": "*"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT"
+}
