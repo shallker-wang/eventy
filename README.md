@@ -19,6 +19,7 @@ function onUpdate(value) {
 }
 
 var user = {}
+eventy(user);
 user.on('update', onUpdate);
 user.trigger('update', 'dead');
 user.off('update', onUpdate);
