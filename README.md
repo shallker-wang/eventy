@@ -25,6 +25,27 @@ user.trigger('update', 'dead');
 user.off('update', onUpdate);
 ```
 
+
+## Global Use
+```javascript
+var Eventy = require('eventy');
+
+var Events = new Eventy();
+
+function me() {
+  Events.on('hi', function(message) {
+    console.log(message);
+  })  
+}
+
+function you() {
+  Events.trigger('hi', 'from you');
+}
+
+me();
+you();
+```
+
 ---
 
 Copyright (c) 2013 Shallker Wang - MIT License (enclosed)
