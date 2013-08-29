@@ -11,10 +11,6 @@ describe 'eventy.on()', ->
     testObj.on 'update', (value)->
       console.log('value');
 
-    testObj.on 'error', (err)->
-      console.log('on error');
-      throw err
-
 describe 'eventy.off()', ->
   it 'should be a function', ->
     testObj.off.should.be.a 'function'
@@ -25,7 +21,10 @@ describe 'eventy.trigger()', ->
   it 'should be a function', ->
     testObj.trigger.should.be.a 'function'
 
-  it 'should trigger the event listener on the object', ->
-    (->
-      testObj.trigger 'error', new Error('test')
-    ).should.throw()
+  it 'should trigger the event listener on the object', (done)->
+    test = {}
+    eventy test
+    test.on 'error', (err)->
+      done()
+
+    test.trigger 'error'
