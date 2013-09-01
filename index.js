@@ -1,5 +1,3 @@
-var pkg = require('./package');
-
 module.exports = exports = require('./lib/eventy');
 
-exports.version = pkg.version;
+exports.version = '1.1.3';
