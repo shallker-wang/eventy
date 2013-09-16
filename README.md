@@ -26,7 +26,7 @@ user.off('update', onUpdate);
 ```
 
 
-## Global Use
+## Global Uses
 ```javascript
 var Eventy = require('eventy');
 
