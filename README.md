@@ -58,6 +58,13 @@ you();
 #### .trigger(String eventname, [Arguments args...])
 #### .triggerSync(String eventname, [Arguments args...])
 
+## Test
+Browser side   
+http://shallker-wang.github.io/eventy/test/index.html   
+http://shallker-wang.github.io/eventy/test/pass-args.html   
+http://shallker-wang.github.io/eventy/test/multi-callbacks.html   
+
+
 ---
 
 Copyright (c) 2013 Shallker Wang - MIT License (enclosed)
