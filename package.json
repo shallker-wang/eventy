@@ -9,6 +9,7 @@
     "event",
     "events"
   ],
+  "homepage": "https://github.com/shallker-wang/eventy",
   "repository": {
     "type": "git",
     "url": "https://github.com/shallker-wang/eventy.git"  
@@ -20,12 +21,9 @@
     "dever": "*"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
-    "coffee-script": "*"
+    "simple-test": "*",
+    "promisy": "*"
   },
-  "scripts": {
-    "test": "mocha"
-  },
+  "scripts": {},
   "license": "MIT"
 }

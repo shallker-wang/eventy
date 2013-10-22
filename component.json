@@ -16,5 +16,9 @@
   ],
   "dependencies": {
     "shallker-wang/dever": "*"
+  },
+  "development": {
+    "shallker/simple-test": "*",
+    "shallker/promisy": "*"
   }
 }
