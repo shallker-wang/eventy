@@ -9,16 +9,16 @@
     "events"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "scripts": [
-    "index.js",
-    "lib/eventy.js"
-  ],
   "dependencies": {
     "shallker-wang/dever": "*"
   },
   "development": {
     "shallker/simple-test": "*",
     "shallker/promisy": "*"
-  }
+  },
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "lib/eventy.js"
+  ]
 }

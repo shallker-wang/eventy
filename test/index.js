@@ -1,4 +1,4 @@
-var eventy = require('../index');
+var eventy = typeof document === 'object' ? require('eventy') : require('../index');
 var test = require('simple-test');
 var promisy = require('promisy')();
 
