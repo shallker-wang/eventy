@@ -55,8 +55,8 @@ you();
 ### eventy
 #### .on(String eventname, Function callback)
 #### .off(String eventname, Function callback)
-#### .trigger(String eventname, Arguments args...)
-#### .triggerSync(String eventname, Arguments args...)
+#### .trigger(String eventname, [Arguments args...])
+#### .triggerSync(String eventname, [Arguments args...])
 
 ---
 
