@@ -5,10 +5,15 @@ An object event injection.
 
 
 ## Installation
+npm
 ```bash
 npm install eventy
 ```
 
+component
+```bash
+component install shallker-wang/eventy
+```
 
 ## Quick Start
 ```javascript
@@ -45,6 +50,13 @@ function you() {
 me();
 you();
 ```
+
+## API
+### eventy
+#### .on(String eventname, Function callback)
+#### .off(String eventname, Function callback)
+#### .trigger(String eventname, Arguments args...)
+#### .triggerSync(String eventname, Arguments args...)
 
 ---
 
